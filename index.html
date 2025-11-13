@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css"
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img heigth="60" width="60" src="img\logo.jpg" />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="#conocenos"> Conocenos</a></li>
+        <li><a href="#paratunegocio"> Para tu negocio</a></li>
+        <li>
+          <a href=""> Para ti</a>
+          <ul class="Menu-Vertical">
+            <li>Credito</li>
+            <li>Ahorro</li>
+            <li>Seguros</li>
+            <li>Inverrsion</li>
+          </ul>
+        </li>
+        <li><a href="#contactanos">Contactanos</a></li>
+      </ul>
+    </nav>
+    <section class="seccion-conocenos" id="conocenos">
+      <div class="div-gral-conocenos">
+        <div class="div-conoc-texto">
+          <h2>CONOCENOS</h2>
+          <p>
+            Steam es una plataforma líder en distribución digital de
+            videojuegos, desarrollada por Valve Corporation, que ha
+            revolucionado la forma en que los jugadores de todo el mundo
+            descubren, compran y disfrutan sus títulos favoritos. Desde su
+            lanzamiento en 2003, Steam se ha convertido en un punto de encuentro
+            para millones de usuarios, ofreciendo una amplia biblioteca que
+            abarca desde los grandes éxitos AAA hasta joyas independientes.
+          </p>
+          <p>
+            Más que una simple tienda, Steam es una comunidad vibrante donde los
+            jugadores pueden conectarse, compartir experiencias, crear contenido
+            y participar en eventos únicos. Nuestro objetivo es brindar la mejor
+            experiencia de juego posible, con actualizaciones constantes,
+            descuentos especiales y herramientas que permiten a los
+            desarrolladores llevar sus proyectos a un público global
+          </p>
+        </div>
+        <div class="div-conoc-img">
+          <img heigth="320" width="320" src="img\img steam.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="seccion-negocio" id="paratunegocio">
+      <div class="div-gral-negocio">
+        <div class="div-negocio-texto">
+          <h2>NEGOCIO</h2>
+          <p>
+            Steam no solo es un espacio para jugar, sino también una poderosa
+            herramienta para los desarrolladores y estudios que buscan llevar
+            sus proyectos a una audiencia global. Gracias a su enorme comunidad
+            y a sus sistemas de publicación accesibles, los creadores pueden
+            lanzar, actualizar y vender sus juegos con total control, alcanzando
+            millones de usuarios en todo el mundo.
+          </p>
+          <p>
+            A través de Steamworks, Valve ofrece un conjunto completo de
+            herramientas para impulsar el éxito comercial de cada título:
+            estadísticas de ventas, soporte para logros, almacenamiento en la
+            nube, sistemas multijugador y mucho más. Nuestro objetivo es que
+            cada desarrollador, sin importar su tamaño, tenga la oportunidad de
+            hacer crecer su negocio y conectar directamente con los jugadores
+            que aman descubrir nuevas experiencias.
+          </p>
+        </div>
+        <div class="div-negocio-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/6WTk74dvWbg?si=uDLfugoHHDC2JnWm"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION CONTACTANOS-->
+    <section class="seccion-formulario" id="contactanos">
+      <div class="div-cont-formulario">
+        <h2>Formulario de Registro</h2>
+        <p>Complete todos los campos</p>
+        <form class="Formulario">
+          <div class="campo">
+            <label for="nombre">Nombres completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="ingrese sus Nombres"
+            />
+          </div>
+          <!--Menu Desplegable-->
+          <div class="campo">
+            <label for="nombre">Pais:</label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione un pais</option>
+              <option value="Peru">Peru</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brazil">Brazil</option>
+            </select>
+          </div>
+          <!--CheckBox-->
+          <div class="campo">
+            <label>Preferencias</label>
+            <ul class="lista-checkbox">
+              <li>
+                <p>
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="preferencias"
+                      value="tecnologia"
+                    />Tecnologia</label
+                  >
+                </p>
+                <p>
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="preferencias"
+                      value="educacion"
+                    />Educacion</label
+                  >
+                </p>
+                <label
+                  ><input
+                    type="checkbox"
+                    name="preferencias"
+                    value="negocios"
+                  />Negocios</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Radio Button-->
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li>
+                <p>
+                  <label
+                    ><input
+                      type="radio"
+                      name="sexo"
+                      value="masculino"
+                    />Masculino</label
+                  >
+                </p>
+                <label
+                  ><input
+                    type="radio"
+                    name="sexo"
+                    value="femenino"
+                  />Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+        </form>
+        <button type="submit">Enviar</button>
+      </div>
+    </section>
+    <!-- PIE DE PAGINA -->
+
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="img\logo.jpg" alt="Logo" class="footer-logo" />
+            <p>STEAM</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="docs\obtenerDocumento.pdf">Política de Privacidad</a>
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a
+              href="https://store.steampowered.com/eula/45760_eula_0?eulaLang=spanish"
+              >Términos y Condiciones</a
+            >
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="docs\obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
