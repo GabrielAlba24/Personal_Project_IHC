@@ -51,7 +51,7 @@ body {
 /*SECCION CONOCENOS*/
 .seccion-conocenos {
   padding: 4.375rem 1.25rem;
-  background: linear-gradient(135deg, #46424b 0%, #2f66c5 100%);
+  background: white;
 }
 .div-gral-conocenos {
   display: flex;
@@ -65,11 +65,11 @@ body {
   flex: 1;
 }
 .div-conoc-texto h2 {
-  color: white;
+  color: black;
   margin-bottom: 0.938rem;
 }
 .div-conoc-texto p {
-  color: white;
+  color: black;
   line-height: 1.5;
 }
 .div-conoc-img {
@@ -79,7 +79,7 @@ body {
 /*SECCION NEGOCIO*/
 .seccion-negocio {
   padding: 3.75rem 1.25rem;
-  background: linear-gradient(135deg, #2f66c5 0%, #46424b 100%);
+  background: white;
 }
 .div-gral-negocio {
   display: flex;
