@@ -139,7 +139,7 @@ select {
   border-radius: 0.313rem;
 }
 
-.lista-checkbox;
+.lista-checkbox,
 .lista-radio {
   list-style: none;
   padding: 0.063rem;
@@ -148,7 +148,7 @@ select {
   background-color: #1a21ee;
   border-radius: 0.5rem;
 }
-.lista-checkbox li;
+.lista-checkbox li,
 .lista-radio li {
   margin-bottom: 0.5rem;
 }
@@ -158,5 +158,4 @@ button {
   border: 0.094rem solid black;
   padding: 0.625rem 1.25rem;
   border-radius: 0.5rem;
-  cursor-pointer;
 }
