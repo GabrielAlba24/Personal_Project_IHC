@@ -1,5 +1,11 @@
 body {
-  background: linear-gradient(180deg, #171a21 0%, #1b2838 70%, #2a475e 100%);
+  background: #2a475e 100%;
+  background: linear-gradient(
+    to bottom,
+    #222d3b,
+    /* Color de inicio (Azul oscuro grisáceo) */ #17202b
+      /* Color de fin (Tono más oscuro) */
+  );
 }
 .topheader {
   position: fixed;
@@ -10,7 +16,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 0 1.25rem;
-  background: linear-gradient(135deg, #46424b 0%, #2f66c5 100%);
+  background: #2a475e 100%;
 }
 .Menu-Horizontal {
   list-style: none;
@@ -52,7 +58,11 @@ body {
 .seccion-conocenos {
   padding: 4.375rem 1.25rem;
   background: white;
-  background: linear-gradient(to bottom, #66c0f4, #101010);
+  background: linear-gradient(
+    to bottom,
+    #222d3b,
+    /* Color superior de tu imagen */ #1f2a37 /* Punto de Corte 1 */
+  );
 }
 .div-gral-conocenos {
   display: flex;
@@ -81,7 +91,11 @@ body {
 .seccion-negocio {
   padding: 3.75rem 1.25rem;
   background: white;
-  background: linear-gradient(to bottom, #101010, #000000);
+  background: linear-gradient(
+    to bottom,
+    #1f2a37,
+    /* DEBE coincidir con el fin del div 1 */ #1a2330 /* Punto de Corte 2 */
+  );
 }
 .div-gral-negocio {
   display: flex;
@@ -117,6 +131,12 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 2.5rem;
+  background: linear-gradient(
+    to bottom,
+    #1a2330,
+    /* DEBE coincidir con el fin del div 2 */ #17202b
+      /* Color inferior de tu imagen */
+  );
 }
 .div-cont-formulario {
   background-color: #aec9f7;
