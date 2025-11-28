@@ -65,7 +65,7 @@ body {
   flex: 1;
 }
 .div-conoc-texto h2 {
-  color: black;
+  color: rgb(35, 160, 243);
   margin-bottom: 0.938rem;
 }
 .div-conoc-texto p {
@@ -92,7 +92,7 @@ body {
   flex: 1;
 }
 .div-negocio-texto h2 {
-  color: blue;
+  color: rgb(35, 160, 243);
   margin-bottom: 0.938rem;
 }
 .div-negocio-texto p {
